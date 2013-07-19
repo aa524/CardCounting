@@ -43,7 +43,7 @@ public class Deck {
 		int count=0;
 		for (int i=0; i<check.length; i++) { 
 			System.out.printf(check[i] + "\n");
-			JOptionPane.showMessageDialog(null, check[i] + " running count is " + count, "yo check it", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, check[i] + " running count is " + count, "Card Counter", JOptionPane.INFORMATION_MESSAGE);
 			count+=check[i].getValue();
 			Thread.sleep(450);
 		}
